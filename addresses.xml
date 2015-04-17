@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<customers>
+		<customer>
+		<note><![CDATA[Jane's last buy was > $1000]]></note>
+		<person id="customer1">
+			<first-name>Clara</first-name>
+			<last-name>Owens</last-name>
+			<middle-initial></middle-initial>
+		</person>
+		<address type="home">
+			<street1>Tardis</street1>
+			<street2></street2>
+			<postal-code></postal-code>
+			<country></country>
+		</address>
+
+	</customer>
+
+</customers>

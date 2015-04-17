@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://www.example.org/customers"
+		xmlns:tns="http://www.example.org/customers" elementFormDefault="qualified">
+
+
+	<complexType name="customers">
+		<sequence>
+			<element name="customer" type="tns:customerType" minOccurs="0"
+				maxOccurs="unbounded" />
+		</sequence>
+	</complexType>
+	<complexType name="customerType">
+		<sequence>
+			<element name="note" type="string" minOccurs="0" maxOccurs="1" />
+			<element name="address" type="tns:addressType" minOccurs="1"
+				maxOccurs="1" />
+			<element name="person" type="tns:personType" minOccurs="1"
+				maxOccurs="1" />
+		</sequence>
+	</complexType>
+	<complexType name="addressType">
+		<sequence>
+			<element name="street1" type="string" />
+			<element name="street2" type="string" />
+			<element name="postal-code" type="string" />
+			<element name="country" type="string" />
+		</sequence>
+	</complexType>
+
+	<complexType name="personType">
+		<sequence>
+			<element name="first-name" type="string" minOccurs="1"
+				maxOccurs="1" />
+			<element name="last-name" type="string" minOccurs="1"
+				maxOccurs="1" />
+			<element name="middle-initial" type="string" minOccurs="0"
+				maxOccurs="1" />
+		</sequence>
+	</complexType>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</schema>
