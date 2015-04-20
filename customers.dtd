@@ -1,0 +1,16 @@
+<!ELEMENT customers (customer)>
+<!ELEMENT customer (note, person, address+)>
+<!ELEMENT person (first-name, middle-name?, last-name)>
+<!ATTLIST person id CDATA #IMPLIED>
+<!ELEMENT address (street1, street2, city, state, postal-code, country)>
+<!ATTLIST address type CDATA #IMPLIED>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT middle-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT street1 (#PCDATA)>
+<!ELEMENT street2 (#PCDATA)>
+<!ELEMENT city    (#PCDATA)>
+<!ELEMENT state   (#PCDATA)>
+<!ELEMENT postal-code (#PCDATA)>
+<!ELEMENT country (#PCDATA)>

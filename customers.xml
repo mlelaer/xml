@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE customers SYSTEM "customers.dtd">
+<customers>
+	<customer>
+		<note><![CDATA[Jane's last buy was > $1000]]></note>
+		<person id="customer1">
+			<first-name>Ely</first-name>
+			<last-name>Marrero</last-name>
+		</person>
+
+		<address type="home">
+			<street1>374 Lochness Drive</street1>
+			<street2></street2>
+			<city>Miami Lakes</city>
+			<state>FL</state>
+			<postal-code>33014</postal-code>
+			<country>US</country>
+		</address>
+
+		<address type="billing">
+			<street1>10 Monroe Blvd</street1>
+			<street2></street2>
+			<city>Long Beach</city>
+			<state>NY</state>
+			<postal-code>11561</postal-code>
+			<country>US</country>
+		</address>
+
+	</customer>
+
+</customers>
