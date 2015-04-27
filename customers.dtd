@@ -1,7 +1,7 @@
-<!ELEMENT customers (customer)>
+<!ELEMENT customers (customer+)>
 <!ELEMENT customer (note, person, address+)>
-<!ELEMENT person (first-name, middle-name?, last-name)>
-<!ATTLIST person id CDATA #IMPLIED>
+<!ELEMENT person (first-name, middle-name, last-name)>
+<!ATTLIST person id CDATA #REQUIRED>
 <!ELEMENT address (street1, street2, city, state, postal-code, country)>
 <!ATTLIST address type CDATA #IMPLIED>
 <!ELEMENT note (#PCDATA)>

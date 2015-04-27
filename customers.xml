@@ -2,9 +2,26 @@
 <!DOCTYPE customers SYSTEM "customers.dtd">
 <customers>
 	<customer>
+		<note>Our second customer!</note>
+		<person id="7">
+			<first-name>George</first-name>
+			<middle-name>Runyard</middle-name>
+			<last-name>Weatherby</last-name>
+		</person>
+		<address>
+			<street1>25 Broadway</street1>
+			<street2></street2>
+			<city>New York</city>
+			<state>NY</state>
+			<postal-code>10004</postal-code>
+			<country>USA</country>
+		</address>
+	</customer>
+	<customer>
 		<note><![CDATA[Jane's last buy was > $1000]]></note>
 		<person id="customer1">
 			<first-name>Ely</first-name>
+			<middle-name>Harvey</middle-name>
 			<last-name>Marrero</last-name>
 		</person>
 

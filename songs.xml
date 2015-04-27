@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE songs SYSTEM "songs.dtd">
+<songs>
+    <song>
+        <artist>Pitbull</artist>
+        <album>Globalization</album>
+        <date>2014</date>
+        <length>3:52</length>
+        <track>4</track>
+        <title>Fireball</title>
+    </song>
+</songs>
