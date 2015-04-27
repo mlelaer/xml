@@ -1,12 +1,47 @@
 <?xml version="1.0"?>
-<!DOCTYPE songs SYSTEM "songs.dtd">
-<songs>
-    <song>
-        <artist>Pitbull</artist>
-        <album>Globalization</album>
-        <date>2014</date>
-        <length>3:52</length>
-        <track>4</track>
-        <title>Fireball</title>
-    </song>
-</songs>
+
+<songList:songs xmlns:songList="http://www.mysite.org/schema/songList"
+        xmlns:song="http://www.mysite.org/schema/song">
+
+    <songList:song>
+        <song:artist>Pitbull</song:artist>
+        <song:album>Globalization</song:album>
+        <song:date>2015-01-01</song:date>
+        <song:length>3:04</song:length>
+        <song:track>1</song:track>
+        <song:title>Ah Leke</song:title>
+    </songList:song>
+    <songList:song>
+        <song:artist>Pitbull</song:artist>
+        <song:album>Pitbull</song:album>
+        <song:date>2015-01-01</song:date>
+        <song:length>3:22</song:length>
+        <song:track>2</song:track>
+        <song:title>Fun</song:title>
+    </songList:song>
+    <songList:song>
+        <song:artist>Pitbull</song:artist>
+        <song:album>Globalization</song:album>
+        <song:date>2015-01-01</song:date>
+        <song:length>3:56</song:length>
+        <song:track>3</song:track>
+        <song:title>Fireball</song:title>
+    </songList:song>
+    <songList:song>
+        <song:artist>Pitbull</song:artist>
+        <song:album>Globalization</song:album>
+        <song:date>2015-01-01</song:date>
+        <song:length>3:49</song:length>
+        <song:track>4</song:track>
+        <song:title>Time of Our Lives</song:title>
+    </songList:song>
+    <songList:song>
+        <song:artist>Pitbull</song:artist>
+        <song:album>Globalization</song:album>
+        <song:date>2015-01-01</song:date>
+        <song:length>3:57</song:length>
+        <song:track>5</song:track>
+        <song:title>Celebrate</song:title>
+    </songList:song>
+
+</songList:songs>

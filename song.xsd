@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema
+        targetNamespace="http://www.mysite.org/schema/song"
+        elementFormDefault="qualified"
+        xmlns="http://www.mysite.org/schema/song"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:album="http://www.mysite.org/schema/album">
+
+  <xs:import schemaLocation="album.xsd" namespace="http://www.mysite.org/schema/album" />
+
+  <xs:complexType name="song">
+    <xs:sequence>
+      <xs:element name="artist" type="xs:string"/>
+      <xs:element name="album"  type="album:title" />
+      <xs:element name="date"   type="xs:date"  />
+      <xs:element name="length" type="xs:string"/>
+      <xs:element name="track"  type="xs:int"/>
+      <xs:element name="title"  type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+
+</xs:schema>

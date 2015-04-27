@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema
+        targetNamespace="http://www.mysite.org/schema/songList"
+        attributeFormDefault="unqualified"
+        elementFormDefault="qualified"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:song="http://www.mysite.org/schema/song">
+
+  <xs:import schemaLocation="song.xsd" namespace="http://www.mysite.org/schema/song" />
+
+
+  <xs:element name="songs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="song" type="song:song" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+</xs:schema>

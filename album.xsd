@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema
+        targetNamespace="http://www.mysite.org/schema/album"
+        attributeFormDefault="unqualified"
+        elementFormDefault="qualified"
+        xmlns="http://www.mysite.org/schema/album"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+  <xs:complexType name="album">
+    <xs:sequence>
+      <xs:element name="artist" type="xs:string"/>
+      <xs:element name="title"  type="title"/>
+      <xs:element name="date"   type="xs:date"/>
+      <xs:element name="length" type="xs:integer"/>
+      <xs:element name="track"  type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:simpleType name="title">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="20" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+</xs:schema>

@@ -1,0 +1,11 @@
+<inv:inventory xmlns:inv="http://www.mysite.org/schema/inventory">
+  <inv:item>
+    <inv:id>3</inv:id>
+    <inv:name>string</inv:name>
+    <inv:inStock>3</inv:inStock>
+    <inv:cost>1000.00</inv:cost>
+    <inv:price>1000.00</inv:price>
+    <!--1 or more repetitions:-->
+    <inv:vendor>TONKA</inv:vendor>
+  </inv:item>
+</inv:inventory>
