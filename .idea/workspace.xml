@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c4c1bf-b4fd-4e7d-9715-23d59474c343" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant_to_csv.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant_to_html.xsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="xml.iws" />
@@ -24,11 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="restaurants.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="restaurants.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurants.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7742303">
-              <caret line="1583" column="5" selection-start-line="1583" selection-start-column="5" selection-end-line="1583" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurant_to_csv.xsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurant_to_csv.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="240" selection-start-line="9" selection-start-column="204" selection-end-line="9" selection-end-column="240" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurant_to_html.xsl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restaurant_to_html.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16597511">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,6 +88,9 @@
         <option value="$PROJECT_DIR$/songs.xml" />
         <option value="$PROJECT_DIR$/inventory.xsd" />
         <option value="$PROJECT_DIR$/restaurants_to_csv.xslt.xsl" />
+        <option value="$PROJECT_DIR$/inventory.xml" />
+        <option value="$PROJECT_DIR$/restaurant_to_csv.xsl" />
+        <option value="$PROJECT_DIR$/restaurant_to_html.xsl" />
       </list>
     </option>
   </component>
@@ -77,10 +102,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1036" />
+    <option name="width" value="1040" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -136,7 +161,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
@@ -145,8 +170,8 @@
       <recent name="C:\hunter\IdeaProjects\xml" />
     </key>
   </component>
-  <component name="RunManager" selected="XSLT.restaurants_to_csv.xslt.xsl">
-    <configuration default="false" name="restaurants_to_csv.xslt.xsl" type="XSLT" factoryName="XSLT" temporary="true">
+  <component name="RunManager" selected="XSLT.HTML">
+    <configuration default="false" name="restaurant_to_csv.xsl" type="XSLT" factoryName="XSLT" temporary="true">
       <option name="myOutputFile" value="" />
       <option name="myOpenOutputFile" value="false" />
       <option name="myOpenInBrowser" value="false" />
@@ -156,13 +181,29 @@
       <option name="myWorkingDirectory" value="" />
       <option name="myModule" />
       <option name="myJdk" />
-      <XsltFile url="file://$PROJECT_DIR$/restaurants_to_csv.xslt.xsl" />
+      <XsltFile url="file://$PROJECT_DIR$/restaurant_to_csv.xsl" />
       <XmlFile url="file://$PROJECT_DIR$/restaurants.xml" />
-      <parameters>
-        <param name="dbaName" value="SUBWAY" />
-      </parameters>
+      <parameters />
       <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="PLAIN_TEXT" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HTML" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" value="" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/restaurant_to_html.xsl" />
+      <XmlFile url="file://$PROJECT_DIR$/restaurants.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="HTML" />
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
@@ -280,12 +321,14 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="XSLT.restaurants_to_csv.xslt.xsl" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="XSLT.restaurant_to_csv.xsl" />
+      <item index="1" class="java.lang.String" itemvalue="XSLT.HTML" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="XSLT.restaurants_to_csv.xslt.xsl" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="XSLT.HTML" />
+        <item index="1" class="java.lang.String" itemvalue="XSLT.restaurant_to_csv.xsl" />
       </list>
     </recent_temporary>
   </component>
@@ -326,22 +369,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1040" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18895027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33843797" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.58805513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17848411" sideWeight="0.49475262" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3071823" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1755102" sideWeight="0.49475262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27565083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15182403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -405,6 +448,16 @@
       <element expression="/result/row[dba='SUBWAY']/grade" />
       <element expression="/result/row[dba='SUBWAY']" />
       <element expression="count(/result/row[dba='SUBWAY'])" />
+      <element expression="//row[dba='mudville saloon']" />
+      <element expression="//row[dba='MUDVILLE SALOON']" />
+      <element expression="//row[dba='MUDVILLE SALOON' and grade='A']" />
+      <element expression="//row[dba='MUDVILLE SALOON']/grade" />
+      <element expression="count(//row[dba='SUBWAY'])" />
+      <element expression="count(//row)" />
+      <element expression="concat(//row/dba, ': ', //row/grade)" />
+      <element expression="/result/row[5]/dba/text()" />
+      <element expression="//row/inspection_date" />
+      <element expression="distinct-values(//row/cuisine_description)" />
     </history>
     <find-history />
   </component>
@@ -606,15 +659,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inventory.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2816">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inventory.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25199544">
+        <state vertical-scroll-proportion="0.3808">
           <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
           <folding />
         </state>
@@ -622,8 +675,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurants.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7742303">
-          <caret line="1583" column="5" selection-start-line="1583" selection-start-column="5" selection-end-line="1583" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_to_csv.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="240" selection-start-line="9" selection-start-column="204" selection-end-line="9" selection-end-column="240" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant_to_html.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16597511">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>
